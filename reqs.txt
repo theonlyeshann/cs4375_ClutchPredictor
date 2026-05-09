@@ -1,0 +1,30 @@
+Project Type 1: ML Problem & Solution
+
+Goal: Pose a real-world problem as an ML task (classification, regression, clustering), train models, and evaluate.
+✅ Checklist
+
+Choose a high-quality dataset (from sources like Kaggle, UCI, OpenML, etc.). Include a section in the report on the dataset and its characteristics.
+Perform Exploratory Data Analysis (EDA):
+- [ ] 	Size of the dataset, number of features/instances, etc.
+- [ ] 	Correlations between features and target
+- [ ] 	Feature distributions and label histograms
+- [ ] 	Missing values and imputation strategy
+- [ ] 	Feature variance and standardization
+- [ ] 	Class imbalance analysis
+Add TSNE or PCA visualization to visualize features and data to understand aspects like separability and so on.
+
+If applicable, please perform comprehensive feature engineering and feature selection to identify the best features for your task. Look into different feature transformations (e.g., polynomial, categorical, count based, and so on).
+- [ ] 	Apply and compare multiple ML models:
+- [ ] 	Linear models (SVMs/Logistic/Linear Regression)
+- [ ] 	Tree-based models (Decision Trees, Random Forests, XGBoost)
+- [ ] 	Neural Networks (MLPs or CNNs if relevant)
+Conduct extensive hyperparameter tuning:
+- [ ] 	Grid search / Random search / Bayesian optimization
+- [ ] 	Use of validation set or cross-validation
+Provide reasoning for hyperparameter choices
+Use appropriate evaluation metrics:
+- [ ] 	Accuracy, Precision, Recall, F1, AUC, RMSE, etc.
+Include visualizations of results (confusion matrices, ROC curves, etc.)
+- [ ] 	Analyze and explain what works and what doesn't
+- [ ] 	Discuss limitations and future directions
+- [ ] 	Summarize lessons learned and key takeaways
