@@ -62,7 +62,9 @@ def test_invalid_data_rejected(raw,corruption):
     if corruption=='label': raw.loc[0,TARGET]=2
     if corruption=='missing': raw.loc[0,'PLAYER_ID']=np.nan
     if corruption=='date': raw.loc[0,'GAME_DATE']=20230230
-    if corruption=='infinite': raw.loc[0,'LOC_Y']=np.inf
+    if corruption=='infinite':
+        raw['LOC_Y']=raw.LOC_Y.astype(float)
+        raw.loc[0,'LOC_Y']=np.inf
     if corruption=='game_date': raw.loc[0,'GAME_DATE']=20230102
     if corruption=='clock': raw.loc[0,'SECONDS_REMAINING']=60
     if corruption=='shot_type': raw.loc[0,'SHOT_TYPE']='Unknown'

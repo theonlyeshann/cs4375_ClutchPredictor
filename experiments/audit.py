@@ -64,7 +64,7 @@ def run(out):
         (out/f'feature-reexecution-{year}.txt').write_text(stdout.getvalue())
         audit[str(year)] = record
     dump(out/'audit.json', audit)
-    manifest(out, 'python -m experiments.audit --output '+str(out.relative_to(ROOT)))
+    manifest(out, 'python -m experiments.audit --output '+str(out))
     print(json.dumps(audit, indent=2, default=int))
 
 

@@ -14,7 +14,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from threadpoolctl import threadpool_limits
 
-from .common import SEED, TARGET, dump, manifest, metrics, new_output
+from .common import ROOT, SEED, TARGET, dump, manifest, metrics, new_output
 from .data import CORE, HISTORY, SPATIAL, assert_ordered, folds, holdout, load_season
 
 # Fixed before evaluating holdouts; action annotation is ineligible for selection.
@@ -43,7 +43,7 @@ def make_model(name):
                                         ('scale', StandardScaler())]), numeric)]
     if feature_set == 'action':
         transforms.append(('action', OneHotEncoder(handle_unknown='ignore', sparse_output=False), ['ACTION_TYPE']))
-    preprocessor = ColumnTransformer(transforms, remainder='drop')
+    preprocessor = ColumnTransformer(transforms, remainder='drop').set_output(transform='pandas')
     if config['model'] == 'dummy':
         estimator = DummyClassifier(strategy='prior')
     elif config['model'] == 'logistic':
@@ -170,7 +170,7 @@ def run(out):
     dump(out/'calibration.json',calibrations)
     dump(out/'paired_intervals.json',intervals)
     dump(out/'warnings.json',warnings_log)
-    manifest(out,'python -m experiments.evaluate --output '+str(out.relative_to(__import__('experiments.common',fromlist=['ROOT']).ROOT)))
+    manifest(out,'python -m experiments.evaluate --output '+str(out))
     print(pd.DataFrame(test_rows)[['protocol','season','candidate','selected','auc','log_loss','brier']].to_string(index=False))
 
 

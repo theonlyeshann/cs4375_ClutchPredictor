@@ -68,7 +68,7 @@ def run(out):
     pd.DataFrame(predictions).to_csv(out/'predictions.csv', index=False)
     dump(out/'parameters.json', params_log)
     dump(out/'warnings.json', warning_log)
-    manifest(out, 'python -m experiments.reproduce --output '+str(out.relative_to(ROOT)))
+    manifest(out, 'python -m experiments.reproduce --output '+str(out))
 
 
 if __name__ == '__main__':
