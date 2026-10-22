@@ -1,3 +1,11 @@
+> **2026-10-22 reproducibility follow-up:** The original study below is preserved.
+> Its random-split evaluation and player rankings have important limitations.
+> Read the [audit](docs/AUDIT.md), [measured experiment log](docs/EXPERIMENT_LOG.md),
+> [validation protocol](docs/EXPERIMENT_PROTOCOL.md), and [run instructions](docs/RUNNING.md).
+> Use `pip install -r requirements.txt` and `python -m pytest -q` for the new
+> cached-data experiments. Historical claims below are not validated conclusions
+> of the follow-up; no original notebook, dataset, plot, or ranking is overwritten.
+
 # ClutchPredictor
 
 ### Predicting the Most Dependable NBA Clutch Shooters Using Machine Learning

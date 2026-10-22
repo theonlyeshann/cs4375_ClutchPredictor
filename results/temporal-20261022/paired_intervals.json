@@ -1,0 +1,35 @@
+{
+  "2021": {
+    "selected": "history_forest",
+    "reference": "distance_logistic",
+    "n_games": 101,
+    "repetitions": 1000,
+    "log_loss_improvement": 0.02872041087707156,
+    "ci95": [
+      0.005732572963883552,
+      0.05420759765337019
+    ]
+  },
+  "2023": {
+    "selected": "history_forest",
+    "reference": "distance_logistic",
+    "n_games": 106,
+    "repetitions": 1000,
+    "log_loss_improvement": 0.0014561592895652876,
+    "ci95": [
+      -0.02604247636444277,
+      0.029740435968417637
+    ]
+  },
+  "transfer": {
+    "selected": "history_forest",
+    "reference": "distance_logistic",
+    "n_games": 535,
+    "repetitions": 1000,
+    "log_loss_improvement": 0.004448647278575476,
+    "ci95": [
+      -0.006435470095655224,
+      0.015666624951112644
+    ]
+  }
+}

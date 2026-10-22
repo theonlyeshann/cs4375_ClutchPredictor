@@ -1,0 +1,842 @@
+{
+  "2021/prevalence": [
+    {
+      "bin": 4,
+      "n": 265,
+      "mean_probability": 0.4508348794063081,
+      "observed_rate": 0.4377358490566038
+    }
+  ],
+  "2021/distance_logistic": [
+    {
+      "bin": 0,
+      "n": 1,
+      "mean_probability": 0.03687678354617674,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 3,
+      "mean_probability": 0.1396763910442614,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 80,
+      "mean_probability": 0.2729562138834452,
+      "observed_rate": 0.2875
+    },
+    {
+      "bin": 3,
+      "n": 34,
+      "mean_probability": 0.3380014963588576,
+      "observed_rate": 0.3235294117647059
+    },
+    {
+      "bin": 4,
+      "n": 30,
+      "mean_probability": 0.45164593044482365,
+      "observed_rate": 0.5
+    },
+    {
+      "bin": 5,
+      "n": 46,
+      "mean_probability": 0.5602265019575952,
+      "observed_rate": 0.3695652173913043
+    },
+    {
+      "bin": 6,
+      "n": 71,
+      "mean_probability": 0.6282231436283877,
+      "observed_rate": 0.704225352112676
+    }
+  ],
+  "2021/context_logistic": [
+    {
+      "bin": 0,
+      "n": 2,
+      "mean_probability": 0.05748134824903965,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 4,
+      "mean_probability": 0.15900763075639635,
+      "observed_rate": 0.25
+    },
+    {
+      "bin": 2,
+      "n": 57,
+      "mean_probability": 0.2692037915240127,
+      "observed_rate": 0.19298245614035087
+    },
+    {
+      "bin": 3,
+      "n": 61,
+      "mean_probability": 0.3335788992596669,
+      "observed_rate": 0.4426229508196721
+    },
+    {
+      "bin": 4,
+      "n": 24,
+      "mean_probability": 0.45037361719120145,
+      "observed_rate": 0.2916666666666667
+    },
+    {
+      "bin": 5,
+      "n": 39,
+      "mean_probability": 0.5525571533042105,
+      "observed_rate": 0.4358974358974359
+    },
+    {
+      "bin": 6,
+      "n": 78,
+      "mean_probability": 0.6344802386076406,
+      "observed_rate": 0.6794871794871795
+    }
+  ],
+  "2021/spatial_logistic": [
+    {
+      "bin": 1,
+      "n": 14,
+      "mean_probability": 0.1703386850121102,
+      "observed_rate": 0.14285714285714285
+    },
+    {
+      "bin": 2,
+      "n": 45,
+      "mean_probability": 0.26968585930759703,
+      "observed_rate": 0.2222222222222222
+    },
+    {
+      "bin": 3,
+      "n": 62,
+      "mean_probability": 0.3394952354420371,
+      "observed_rate": 0.4032258064516129
+    },
+    {
+      "bin": 4,
+      "n": 29,
+      "mean_probability": 0.4474468173374242,
+      "observed_rate": 0.41379310344827586
+    },
+    {
+      "bin": 5,
+      "n": 44,
+      "mean_probability": 0.5524661737121916,
+      "observed_rate": 0.4318181818181818
+    },
+    {
+      "bin": 6,
+      "n": 67,
+      "mean_probability": 0.6464372773602612,
+      "observed_rate": 0.6716417910447762
+    },
+    {
+      "bin": 7,
+      "n": 4,
+      "mean_probability": 0.7109095456436427,
+      "observed_rate": 0.75
+    }
+  ],
+  "2021/history_logistic_c01": [
+    {
+      "bin": 0,
+      "n": 1,
+      "mean_probability": 0.07440365174657437,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 13,
+      "mean_probability": 0.17274976571963302,
+      "observed_rate": 0.15384615384615385
+    },
+    {
+      "bin": 2,
+      "n": 41,
+      "mean_probability": 0.26920274796020066,
+      "observed_rate": 0.21951219512195122
+    },
+    {
+      "bin": 3,
+      "n": 63,
+      "mean_probability": 0.3452899540680873,
+      "observed_rate": 0.36507936507936506
+    },
+    {
+      "bin": 4,
+      "n": 29,
+      "mean_probability": 0.45346908217270593,
+      "observed_rate": 0.41379310344827586
+    },
+    {
+      "bin": 5,
+      "n": 51,
+      "mean_probability": 0.5537684240339704,
+      "observed_rate": 0.47058823529411764
+    },
+    {
+      "bin": 6,
+      "n": 64,
+      "mean_probability": 0.641358073994438,
+      "observed_rate": 0.6875
+    },
+    {
+      "bin": 7,
+      "n": 3,
+      "mean_probability": 0.702083572680764,
+      "observed_rate": 0.6666666666666666
+    }
+  ],
+  "2021/history_logistic_c1": [
+    {
+      "bin": 1,
+      "n": 13,
+      "mean_probability": 0.16887214457533556,
+      "observed_rate": 0.15384615384615385
+    },
+    {
+      "bin": 2,
+      "n": 45,
+      "mean_probability": 0.2695044080889184,
+      "observed_rate": 0.2
+    },
+    {
+      "bin": 3,
+      "n": 65,
+      "mean_probability": 0.34223313335164984,
+      "observed_rate": 0.4153846153846154
+    },
+    {
+      "bin": 4,
+      "n": 29,
+      "mean_probability": 0.4540751167008441,
+      "observed_rate": 0.41379310344827586
+    },
+    {
+      "bin": 5,
+      "n": 45,
+      "mean_probability": 0.5560720366111388,
+      "observed_rate": 0.4222222222222222
+    },
+    {
+      "bin": 6,
+      "n": 63,
+      "mean_probability": 0.6503594950386608,
+      "observed_rate": 0.6825396825396826
+    },
+    {
+      "bin": 7,
+      "n": 5,
+      "mean_probability": 0.7168077481436883,
+      "observed_rate": 0.8
+    }
+  ],
+  "2021/history_forest": [
+    {
+      "bin": 1,
+      "n": 12,
+      "mean_probability": 0.16793804108533458,
+      "observed_rate": 0.25
+    },
+    {
+      "bin": 2,
+      "n": 33,
+      "mean_probability": 0.25443040331963906,
+      "observed_rate": 0.18181818181818182
+    },
+    {
+      "bin": 3,
+      "n": 96,
+      "mean_probability": 0.35416367696806245,
+      "observed_rate": 0.3125
+    },
+    {
+      "bin": 4,
+      "n": 65,
+      "mean_probability": 0.4415349015428736,
+      "observed_rate": 0.5230769230769231
+    },
+    {
+      "bin": 5,
+      "n": 7,
+      "mean_probability": 0.5457855611738835,
+      "observed_rate": 0.42857142857142855
+    },
+    {
+      "bin": 6,
+      "n": 23,
+      "mean_probability": 0.6646329406391479,
+      "observed_rate": 0.6521739130434783
+    },
+    {
+      "bin": 7,
+      "n": 27,
+      "mean_probability": 0.7376455928589166,
+      "observed_rate": 0.8518518518518519
+    },
+    {
+      "bin": 8,
+      "n": 2,
+      "mean_probability": 0.8066818274521392,
+      "observed_rate": 1.0
+    }
+  ],
+  "2021/history_lightgbm": [
+    {
+      "bin": 1,
+      "n": 11,
+      "mean_probability": 0.1587844688612754,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 41,
+      "mean_probability": 0.2598773750384217,
+      "observed_rate": 0.24390243902439024
+    },
+    {
+      "bin": 3,
+      "n": 93,
+      "mean_probability": 0.35219202350224266,
+      "observed_rate": 0.3333333333333333
+    },
+    {
+      "bin": 4,
+      "n": 47,
+      "mean_probability": 0.4426354268081464,
+      "observed_rate": 0.574468085106383
+    },
+    {
+      "bin": 5,
+      "n": 22,
+      "mean_probability": 0.5367762395827067,
+      "observed_rate": 0.3181818181818182
+    },
+    {
+      "bin": 6,
+      "n": 30,
+      "mean_probability": 0.6607530332368464,
+      "observed_rate": 0.8
+    },
+    {
+      "bin": 7,
+      "n": 21,
+      "mean_probability": 0.7468751844284567,
+      "observed_rate": 0.8095238095238095
+    }
+  ],
+  "2021/action_sensitivity": [
+    {
+      "bin": 0,
+      "n": 2,
+      "mean_probability": 0.07383081995923693,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 12,
+      "mean_probability": 0.1595952442092746,
+      "observed_rate": 0.08333333333333333
+    },
+    {
+      "bin": 2,
+      "n": 36,
+      "mean_probability": 0.2603128145674604,
+      "observed_rate": 0.3055555555555556
+    },
+    {
+      "bin": 3,
+      "n": 67,
+      "mean_probability": 0.34260529825713093,
+      "observed_rate": 0.29850746268656714
+    },
+    {
+      "bin": 4,
+      "n": 36,
+      "mean_probability": 0.4460324620645537,
+      "observed_rate": 0.4722222222222222
+    },
+    {
+      "bin": 5,
+      "n": 55,
+      "mean_probability": 0.5553223344697454,
+      "observed_rate": 0.45454545454545453
+    },
+    {
+      "bin": 6,
+      "n": 38,
+      "mean_probability": 0.6503819910407483,
+      "observed_rate": 0.6578947368421053
+    },
+    {
+      "bin": 7,
+      "n": 19,
+      "mean_probability": 0.737166464649729,
+      "observed_rate": 0.8947368421052632
+    }
+  ],
+  "2023/prevalence": [
+    {
+      "bin": 4,
+      "n": 252,
+      "mean_probability": 0.4606060606060607,
+      "observed_rate": 0.43253968253968256
+    }
+  ],
+  "2023/distance_logistic": [
+    {
+      "bin": 1,
+      "n": 2,
+      "mean_probability": 0.17913941026056537,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 64,
+      "mean_probability": 0.2779338630619122,
+      "observed_rate": 0.296875
+    },
+    {
+      "bin": 3,
+      "n": 45,
+      "mean_probability": 0.31741933618964446,
+      "observed_rate": 0.26666666666666666
+    },
+    {
+      "bin": 4,
+      "n": 36,
+      "mean_probability": 0.44506219750888676,
+      "observed_rate": 0.4444444444444444
+    },
+    {
+      "bin": 5,
+      "n": 32,
+      "mean_probability": 0.5517687413585175,
+      "observed_rate": 0.375
+    },
+    {
+      "bin": 6,
+      "n": 73,
+      "mean_probability": 0.6406731051958406,
+      "observed_rate": 0.684931506849315
+    }
+  ],
+  "2023/context_logistic": [
+    {
+      "bin": 1,
+      "n": 4,
+      "mean_probability": 0.16775246249300801,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 40,
+      "mean_probability": 0.2734632721341224,
+      "observed_rate": 0.275
+    },
+    {
+      "bin": 3,
+      "n": 85,
+      "mean_probability": 0.3412234547232567,
+      "observed_rate": 0.35294117647058826
+    },
+    {
+      "bin": 4,
+      "n": 24,
+      "mean_probability": 0.44905279587344316,
+      "observed_rate": 0.2916666666666667
+    },
+    {
+      "bin": 5,
+      "n": 24,
+      "mean_probability": 0.549269036273465,
+      "observed_rate": 0.3333333333333333
+    },
+    {
+      "bin": 6,
+      "n": 68,
+      "mean_probability": 0.6517740869208543,
+      "observed_rate": 0.7058823529411765
+    },
+    {
+      "bin": 7,
+      "n": 7,
+      "mean_probability": 0.7078695771899023,
+      "observed_rate": 0.7142857142857143
+    }
+  ],
+  "2023/spatial_logistic": [
+    {
+      "bin": 1,
+      "n": 2,
+      "mean_probability": 0.18758019871916926,
+      "observed_rate": 0.5
+    },
+    {
+      "bin": 2,
+      "n": 46,
+      "mean_probability": 0.2618551839562422,
+      "observed_rate": 0.2391304347826087
+    },
+    {
+      "bin": 3,
+      "n": 89,
+      "mean_probability": 0.34699530687693697,
+      "observed_rate": 0.3258426966292135
+    },
+    {
+      "bin": 4,
+      "n": 18,
+      "mean_probability": 0.450462438319621,
+      "observed_rate": 0.4444444444444444
+    },
+    {
+      "bin": 5,
+      "n": 29,
+      "mean_probability": 0.5630724967119021,
+      "observed_rate": 0.41379310344827586
+    },
+    {
+      "bin": 6,
+      "n": 54,
+      "mean_probability": 0.6507189939349781,
+      "observed_rate": 0.6851851851851852
+    },
+    {
+      "bin": 7,
+      "n": 14,
+      "mean_probability": 0.7375243522759202,
+      "observed_rate": 0.7857142857142857
+    }
+  ],
+  "2023/history_logistic_c01": [
+    {
+      "bin": 1,
+      "n": 4,
+      "mean_probability": 0.16745670069064741,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 60,
+      "mean_probability": 0.26652051028771234,
+      "observed_rate": 0.2833333333333333
+    },
+    {
+      "bin": 3,
+      "n": 65,
+      "mean_probability": 0.3348456009829166,
+      "observed_rate": 0.3230769230769231
+    },
+    {
+      "bin": 4,
+      "n": 22,
+      "mean_probability": 0.4394111803372959,
+      "observed_rate": 0.4090909090909091
+    },
+    {
+      "bin": 5,
+      "n": 45,
+      "mean_probability": 0.5525682207415343,
+      "observed_rate": 0.4888888888888889
+    },
+    {
+      "bin": 6,
+      "n": 47,
+      "mean_probability": 0.6414580969679707,
+      "observed_rate": 0.723404255319149
+    },
+    {
+      "bin": 7,
+      "n": 9,
+      "mean_probability": 0.719550119743672,
+      "observed_rate": 0.6666666666666666
+    }
+  ],
+  "2023/history_logistic_c1": [
+    {
+      "bin": 1,
+      "n": 5,
+      "mean_probability": 0.1799485197524404,
+      "observed_rate": 0.4
+    },
+    {
+      "bin": 2,
+      "n": 55,
+      "mean_probability": 0.2583031667441051,
+      "observed_rate": 0.23636363636363636
+    },
+    {
+      "bin": 3,
+      "n": 80,
+      "mean_probability": 0.3385194393773811,
+      "observed_rate": 0.3375
+    },
+    {
+      "bin": 4,
+      "n": 17,
+      "mean_probability": 0.44825779862714193,
+      "observed_rate": 0.4117647058823529
+    },
+    {
+      "bin": 5,
+      "n": 34,
+      "mean_probability": 0.5589477332388381,
+      "observed_rate": 0.5
+    },
+    {
+      "bin": 6,
+      "n": 46,
+      "mean_probability": 0.6492255225253778,
+      "observed_rate": 0.717391304347826
+    },
+    {
+      "bin": 7,
+      "n": 15,
+      "mean_probability": 0.7346107361204112,
+      "observed_rate": 0.6666666666666666
+    }
+  ],
+  "2023/history_forest": [
+    {
+      "bin": 2,
+      "n": 17,
+      "mean_probability": 0.2675398171305457,
+      "observed_rate": 0.23529411764705882
+    },
+    {
+      "bin": 3,
+      "n": 72,
+      "mean_probability": 0.3592329342216126,
+      "observed_rate": 0.2638888888888889
+    },
+    {
+      "bin": 4,
+      "n": 77,
+      "mean_probability": 0.43813755318927444,
+      "observed_rate": 0.37662337662337664
+    },
+    {
+      "bin": 5,
+      "n": 29,
+      "mean_probability": 0.5328030010812485,
+      "observed_rate": 0.4482758620689655
+    },
+    {
+      "bin": 6,
+      "n": 13,
+      "mean_probability": 0.6523806678857684,
+      "observed_rate": 0.7692307692307693
+    },
+    {
+      "bin": 7,
+      "n": 19,
+      "mean_probability": 0.7591448205563616,
+      "observed_rate": 0.8947368421052632
+    },
+    {
+      "bin": 8,
+      "n": 25,
+      "mean_probability": 0.8397970713756014,
+      "observed_rate": 0.68
+    }
+  ],
+  "2023/history_lightgbm": [
+    {
+      "bin": 1,
+      "n": 1,
+      "mean_probability": 0.17232248409661355,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 25,
+      "mean_probability": 0.2668164914836684,
+      "observed_rate": 0.2
+    },
+    {
+      "bin": 3,
+      "n": 77,
+      "mean_probability": 0.3579268626623059,
+      "observed_rate": 0.3246753246753247
+    },
+    {
+      "bin": 4,
+      "n": 56,
+      "mean_probability": 0.44326077259433344,
+      "observed_rate": 0.35714285714285715
+    },
+    {
+      "bin": 5,
+      "n": 35,
+      "mean_probability": 0.548874005824262,
+      "observed_rate": 0.45714285714285713
+    },
+    {
+      "bin": 6,
+      "n": 19,
+      "mean_probability": 0.6471533899079617,
+      "observed_rate": 0.7368421052631579
+    },
+    {
+      "bin": 7,
+      "n": 24,
+      "mean_probability": 0.750981301534944,
+      "observed_rate": 0.7083333333333334
+    },
+    {
+      "bin": 8,
+      "n": 15,
+      "mean_probability": 0.8305248663137957,
+      "observed_rate": 0.8
+    }
+  ],
+  "2023/action_sensitivity": [
+    {
+      "bin": 1,
+      "n": 5,
+      "mean_probability": 0.17183926166586913,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 2,
+      "n": 62,
+      "mean_probability": 0.26632357767181214,
+      "observed_rate": 0.2903225806451613
+    },
+    {
+      "bin": 3,
+      "n": 64,
+      "mean_probability": 0.3424914129490796,
+      "observed_rate": 0.359375
+    },
+    {
+      "bin": 4,
+      "n": 30,
+      "mean_probability": 0.4540155040841384,
+      "observed_rate": 0.4
+    },
+    {
+      "bin": 5,
+      "n": 47,
+      "mean_probability": 0.5541739485629613,
+      "observed_rate": 0.5531914893617021
+    },
+    {
+      "bin": 6,
+      "n": 35,
+      "mean_probability": 0.6449095546271307,
+      "observed_rate": 0.6
+    },
+    {
+      "bin": 7,
+      "n": 9,
+      "mean_probability": 0.7497605304068108,
+      "observed_rate": 1.0
+    }
+  ],
+  "transfer/prevalence": [
+    {
+      "bin": 4,
+      "n": 1407,
+      "mean_probability": 0.4482501861504095,
+      "observed_rate": 0.45557924662402277
+    }
+  ],
+  "transfer/distance_logistic": [
+    {
+      "bin": 0,
+      "n": 6,
+      "mean_probability": 0.053345413235214446,
+      "observed_rate": 0.0
+    },
+    {
+      "bin": 1,
+      "n": 11,
+      "mean_probability": 0.17299756323495094,
+      "observed_rate": 0.2727272727272727
+    },
+    {
+      "bin": 2,
+      "n": 425,
+      "mean_probability": 0.2743737933535496,
+      "observed_rate": 0.30823529411764705
+    },
+    {
+      "bin": 3,
+      "n": 172,
+      "mean_probability": 0.33305046247277553,
+      "observed_rate": 0.3081395348837209
+    },
+    {
+      "bin": 4,
+      "n": 179,
+      "mean_probability": 0.44702069702748265,
+      "observed_rate": 0.43575418994413406
+    },
+    {
+      "bin": 5,
+      "n": 220,
+      "mean_probability": 0.5549161705338667,
+      "observed_rate": 0.4409090909090909
+    },
+    {
+      "bin": 6,
+      "n": 394,
+      "mean_probability": 0.6299751881049276,
+      "observed_rate": 0.7081218274111675
+    }
+  ],
+  "transfer/history_forest": [
+    {
+      "bin": 1,
+      "n": 111,
+      "mean_probability": 0.1658093313482939,
+      "observed_rate": 0.26126126126126126
+    },
+    {
+      "bin": 2,
+      "n": 191,
+      "mean_probability": 0.2536413957441793,
+      "observed_rate": 0.2879581151832461
+    },
+    {
+      "bin": 3,
+      "n": 387,
+      "mean_probability": 0.3524783014798381,
+      "observed_rate": 0.3643410852713178
+    },
+    {
+      "bin": 4,
+      "n": 343,
+      "mean_probability": 0.44320278467383833,
+      "observed_rate": 0.446064139941691
+    },
+    {
+      "bin": 5,
+      "n": 60,
+      "mean_probability": 0.5384475253217207,
+      "observed_rate": 0.45
+    },
+    {
+      "bin": 6,
+      "n": 93,
+      "mean_probability": 0.6614076644860388,
+      "observed_rate": 0.6989247311827957
+    },
+    {
+      "bin": 7,
+      "n": 147,
+      "mean_probability": 0.7532045576885026,
+      "observed_rate": 0.7755102040816326
+    },
+    {
+      "bin": 8,
+      "n": 75,
+      "mean_probability": 0.8422947987950504,
+      "observed_rate": 0.76
+    }
+  ]
+}

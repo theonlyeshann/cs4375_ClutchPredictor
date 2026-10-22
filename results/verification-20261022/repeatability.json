@@ -1,0 +1,56 @@
+{
+  "initial_strict_byte_check": "failed for four files after pandas feature-name cleanup; numeric differences investigated, not hidden",
+  "comparison": {
+    "metrics.csv": {
+      "identical_bytes": false,
+      "rerun_sha256": "56f56cf52aef65ffcb49c4961f661003ca9b20a8278eb25b865bac06f503c9c1",
+      "max_numeric_abs_difference": 0.0,
+      "matches_atol_1e_12": true
+    },
+    "predictions.csv": {
+      "identical_bytes": false,
+      "rerun_sha256": "d0c10c68daa7c2bb04d2494181dcc882dac0f2dac39995ab6fa5a47e2f655af1",
+      "max_numeric_abs_difference": 2.220446049250313e-16,
+      "matches_atol_1e_12": true
+    },
+    "splits.csv": {
+      "identical_bytes": true,
+      "rerun_sha256": "3fa66b4f22e929fce17793406bce376f7578680c3fc46bb43c097885cc71a813",
+      "max_numeric_abs_difference": 0.0,
+      "matches_atol_1e_12": true
+    },
+    "validation.csv": {
+      "identical_bytes": false,
+      "rerun_sha256": "c8f63976237fc1af91955214b9011b371da47ce3af611d943f55f84653199588",
+      "max_numeric_abs_difference": 2.220446049250313e-16,
+      "matches_atol_1e_12": true
+    },
+    "calibration.json": {
+      "identical_bytes": false,
+      "rerun_sha256": "f2990169648928e447608f6677e00b75bbf5e6d912f35527394958a93be37626",
+      "matches_atol_1e_12": true
+    },
+    "paired_intervals.json": {
+      "identical_bytes": true,
+      "rerun_sha256": "fa7b8eea0bcd3990baa073e3df244de0cbae2c49ca0c764b09d1d097399e8ea2",
+      "matches_atol_1e_12": true
+    },
+    "selection.json": {
+      "identical_bytes": true,
+      "rerun_sha256": "865f27709969d0d9955ce0d8a3283f471d37eb4a3fe09d76bcde02a4b7f4fc23",
+      "matches_atol_1e_12": true
+    },
+    "candidate_definitions.json": {
+      "identical_bytes": true,
+      "rerun_sha256": "b20854f7e02bbe4b45d4fdc08211014c07bbd0006a17a273de8e7fd0066714ce",
+      "matches_atol_1e_12": true
+    }
+  },
+  "tolerance": 1e-12,
+  "final_temporal_warnings": 0,
+  "original_data_notebooks_models_unchanged": true,
+  "original_readme_body_preserved": true,
+  "local_initial_commit": "d3c63cb",
+  "remote_initial_commit": "4d04a12fa04865aabe13c7407db4a42e29c7c737",
+  "identical_initial_tree": "a9ae17b71661d8e19d9cda25ad6a8fb064e2a4bb"
+}

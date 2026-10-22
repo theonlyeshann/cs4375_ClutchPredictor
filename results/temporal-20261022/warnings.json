@@ -1,0 +1,50 @@
+[
+  {
+    "stage": "2021/fold1",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2021/fold2",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2021/fold3",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2021/holdout",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2023/fold1",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2023/fold2",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2023/fold3",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  },
+  {
+    "stage": "2023/holdout",
+    "candidate": "history_lightgbm",
+    "category": "UserWarning",
+    "message": "X does not have valid feature names, but LGBMClassifier was fitted with feature names"
+  }
+]
