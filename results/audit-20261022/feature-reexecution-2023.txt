@@ -1,0 +1,11 @@
+(1407, 26)
+Train size: 1125, Test size: 282
+Train columns: 68
+Test columns:  68
+Constant features removed: ['CLUTCH']
+
+Selected Features:
+['MINUTES_REMAINING', 'SHOT_DISTANCE', 'TIME_REMAINING', 'PRESSURE_SCORE', 'SHOT_DIFFICULTY', 'PLAYER_CLUTCH_FG', 'ACTION_TYPE_Cutting Dunk Shot', 'ACTION_TYPE_Driving Dunk Shot', 'ACTION_TYPE_Jump Shot', 'ACTION_TYPE_Pullup Jump shot', 'ACTION_TYPE_Running Dunk Shot', 'SHOT_ZONE_BASIC_Restricted Area', 'SHOT_ZONE_AREA_Center(C)', 'SHOT_ZONE_AREA_Left Side Center(LC)', 'SHOT_ZONE_AREA_Right Side Center(RC)', 'SHOT_TYPE_3PT Field Goal', 'SHOT_ZONE_RANGE_24+ ft.', 'SHOT_ZONE_RANGE_Less Than 8 ft.', 'SHOT_DISTANCE', 'TIME_REMAINING', 'PRESSURE_SCORE', 'SHOT_DISTANCE^2', 'SHOT_DISTANCE TIME_REMAINING', 'SHOT_DISTANCE PRESSURE_SCORE', 'PRESSURE_SCORE^2']
+
+Final Feature Matrix Shape (train): (1125, 25)
+Final Feature Matrix Shape (test):  (282, 25)
